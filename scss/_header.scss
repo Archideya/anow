@@ -1,0 +1,23 @@
+.site-head{
+    padding-top: 27px;
+    .site-nav,.site-list{
+        display: $main-display;
+        align-items: $main-align;
+
+        .logo{
+            margin-right: auto;
+        }
+        .site-list{
+            list-style-type: none;
+
+            .site-link{
+            margin-right: 30px;
+
+            &_active{
+                color: $main-color;
+                margin-right: 30px;
+            }
+            }
+        }
+    }
+}
